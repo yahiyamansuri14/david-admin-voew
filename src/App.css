@@ -1,0 +1,289 @@
+/* .App {
+  text-align: center;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+label:focus,
+.btn:active,
+.btn.active
+{
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.verticle-menu {
+  width: 250px;
+  position: fixed;
+  /* background-color: rgba(20, 51, 163, 0.8); */
+  /* background-color: #2a3042; */
+  background-color: #fff;
+  /* top: 70px; */
+  box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
+
+/* 
+color properties
+
+*/
+.color-red {
+  color: red;
+}
+
+/*
+color properties ends here
+*/
+
+
+.menu-item-links {
+  margin-left: 10px;
+  margin-top: 7px;
+  color: #012970;;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu-item-links:hover {
+  color: #4154F1;
+  background-color: #F6F9FF;
+}
+
+/* .menu-item-wrapper{
+  margin-left: 10px;
+  margin-top: 7px;
+  color: #012970;;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu-item-wrapper:hover {
+  color: #4154F1;
+  background-color: #F6F9FF;
+} */
+
+.paddiing-10 {
+  padding: 10px;
+}
+
+.submenu-item-links {
+  margin-left: 15px;
+}
+
+.side-menu-container {
+  height: 100vh !important;
+}
+
+.side-menu-list {
+  list-style-type: disc;
+}
+
+.menu-text {
+  margin-left: 10px;
+}
+
+.fa-circle {
+  font-size: 16px !important;
+}
+
+.submenu > li > span{
+  margin-left: 10px;
+}
+
+.margin-left-10 {
+  margin-left: 10px !important;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-white {
+  color: white;
+}
+
+.display-block {
+  display: block;
+}
+
+.page-topbar {
+  margin: 0px !important;
+  padding: 0px !important;
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 999999 !important;
+  box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
+
+.navbar-brand {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important ;
+}
+
+.navbar-brand-box {
+  padding: 0 1.5rem;
+  text-align: center;
+  width: 250px;
+  /* background-color: rgba(20, 51, 163, 0.8); */
+  /* background-color: #2a3042; */
+}
+
+.logo-text-style {
+  font-weight: bolder;
+  color: #012970;
+}
+
+.logo {
+  line-height: 70px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.navbar-header {
+  background-color: white;
+}
+
+.main-content {
+  margin-left: 250px;
+  overflow: hidden;
+}
+
+.product-detail-container {
+  padding: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.table-container {
+  padding: 30px;
+  background-color: white;
+}
+
+.table {
+  text-align: left;
+}
+
+.table-header {
+  /* background-color: #3e57b0; */
+  background-color: #012970;
+  color: white;
+}
+
+.product-table-row {
+  background-color: #a6b0cf;
+}
+
+.table-icon-group > i {
+  margin-right: 10px;
+  /* color: white; */
+  /* color: black; */
+}
+
+.bg-color-green {
+  background-color: #2eb85c;
+}
+
+.bg-color-red {
+  /* background-color: #b82e2e; */
+  background-color: red;
+}
+
+.color-red {
+  color: red;
+}
+
+.product-table-row {
+  background-color: rgba(62, 87, 176, 0,2);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+tbody {
+  border-top: 0px !important;
+}
+
+.mail-page-container{
+  padding: 20px ;
+}
+
+
+.custom-button-medium {
+  height: 30px !important;
+  width: 100px !important;
+  border-radius: 5px;
+}
+
+.custom-button-medium:hover {
+  color: white;
+}
+
+
+.page-select {
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    /* display: inline-block !important; */
+}
+
+.margin-left-0 {
+  margin-left: 0px !important;
+}
+
+
+.sidebar-close {
+  transform: translateX(-250px);
+  -webkit-transform: translateX(-250px);
+}
+
+
+.subs-button {
+  width: auto !important;
+  padding: 4px !important;
+}
+
+
+.images-container {
+  height: 200px;
+  width: 250px;
+}
+/* 
+.btn {
+  border-radius: 0px !important;
+}
+
+.form-control {
+  border-radius:  0px !important;
+} */
+
+th {
+  padding: 8px ;
+}
+
+.fa-solid {
+  font-size: 20px !important;
+}
+

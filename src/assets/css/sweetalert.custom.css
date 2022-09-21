@@ -1,0 +1,33 @@
+.swal2-container .swal2-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .swal2-icon.swal2-question {
+    border-color: #50a5f1;
+    color: #50a5f1;
+  }
+  .swal2-icon.swal2-success [class^="swal2-success-line"] {
+    background-color: #34c38f;
+  }
+  .swal2-icon.swal2-success .swal2-success-ring {
+    border-color: rgba(52, 195, 143, 0.3);
+  }
+  .swal2-icon.swal2-warning {
+    border-color: #f1b44c;
+    color: #f1b44c;
+  }
+  .swal2-styled:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step {
+    background: #556ee6;
+  }
+  .swal2-progress-steps
+    .swal2-progress-step.swal2-active-progress-step
+    ~ .swal2-progress-step,
+  .swal2-progress-steps
+    .swal2-progress-step.swal2-active-progress-step
+    ~ .swal2-progress-step-line {
+    background: rgba(85, 110, 230, 0.3);
+  }
