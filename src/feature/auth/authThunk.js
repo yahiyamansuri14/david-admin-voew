@@ -12,7 +12,7 @@ export const checkLogin = createAsyncThunk(
        return new Promise(async (resolve, reject) => {
         await axios({
             method: "POST",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/auth/login",
+            url: "http://139.144.62.230:8080/v1/auth/login",
             data: data
            }).then(data => {
             resp = data.data;

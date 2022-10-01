@@ -14,7 +14,7 @@ export const addSubscriber = createAsyncThunk(
         let resp;
         await axios({
             method: "POST",
-            url:"http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/auth/signup",
+            url:"http://139.144.62.230:8080/v1/auth/signup",
             headers: {
                 Authorization: `Bearer ${token}`                                                                 
             },
@@ -37,7 +37,7 @@ export const getAllUser = createAsyncThunk(
         let token = await getToken();
         await axios({
             method: "GET",
-            url: `http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/find-all?limit=${limit}&page=${page}`,
+            url: `http://139.144.62.230:8080/v1/user/find-all?limit=${limit}&page=${page}`,
             headers: {
                 Authorization: `Bearer ${token}`
             },
@@ -60,7 +60,7 @@ export const updateUser = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "PUT",
-            url:"http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/update",
+            url:"http://139.144.62.230:8080/v1/user/update",
             headers: {
                 Authorization: `Bearer ${token}`
             },
@@ -84,7 +84,7 @@ export const searchUser = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "GET",
-            url: `http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/search?email=${email}`,
+            url: `http://139.144.62.230:8080/v1/user/search?email=${email}`,
             headers: {
                 Authorization: `Bearer ${token}`
             },
@@ -106,7 +106,7 @@ export const shippingMail = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "POST",
-            url: 'http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/mail/shipping',
+            url: 'http://139.144.62.230:8080/v1/user/mail/shipping',
             headers: {
                 Authorization: `Bearer ${token}`
             },
@@ -129,7 +129,7 @@ export const addProduct = createAsyncThunk(
 
         await axios({
             method: "POST",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/product/save",
+            url: "http://139.144.62.230:8080/v1/user/product/save",
             headers: {
                 Authorization: `Bearer ${token}`,
             },
@@ -151,7 +151,7 @@ export const getAllProduct = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "GET",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/product/all",
+            url: "http://139.144.62.230:8080/v1/user/product/all",
             headers: {
                 Authorization: `Bearer ${token}`,
             },
@@ -172,7 +172,7 @@ export const deleteProduct = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "GET",
-            url: `http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/product/delete/${data}`,
+            url: `http://139.144.62.230:8080/v1/user/product/delete/${data}`,
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -194,7 +194,7 @@ export const deleteUser = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "GET",
-            url: `http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/delete/${data}`,
+            url: `http://139.144.62.230:8080/v1/user/delete/${data}`,
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -217,7 +217,7 @@ export const updateProduct = createAsyncThunk(
 
             await axios({
                 method: "PUT",
-                url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/product/update",
+                url: "http://139.144.62.230:8080/v1/user/product/update",
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
@@ -244,7 +244,7 @@ export const uploadImage = createAsyncThunk(
 
         await axios({
             method: "POST",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/upload/file",
+            url: "http://139.144.62.230:8080/v1/user/upload/file",
             headers: {
                 Authorization: `Bearer ${token}`,
             },
@@ -268,7 +268,7 @@ export const updateStock = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "POST",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/product/update/instock",
+            url: "http://139.144.62.230:8080/v1/user/product/update/instock",
             headers: {
                 Authorization: `Bearer ${token}`,
             },
@@ -291,7 +291,7 @@ export const sendProductEmail = createAsyncThunk(
         let token = await getToken()
         await axios({
             method: "POST",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/mail/product",
+            url: "http://139.144.62.230:8080/v1/user/mail/product",
             headers: {
                 Authorization: `Bearer ${token}`
             },

@@ -71,7 +71,7 @@ export default function ProductTable(props) {
                 </td>
                 <td>
                   <img
-                    src={`http://d1n2t-adm1n.maxnetcommercial.com:8080/${product.files[0]}`}
+                    src={`http://139.144.62.230:8080/${product.files[0]}`}
                     height="50px"
                     width="50px"
                     className="border"

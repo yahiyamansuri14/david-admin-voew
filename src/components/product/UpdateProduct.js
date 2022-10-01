@@ -194,7 +194,7 @@ export default function UpdateProduct(props) {
                             {
                                 state.files.map(file => (
 
-                                    <img src={`http://d1n2t-adm1n.maxnetcommercial.com:8080/${file}`} alt=".." className="m-2 border" style={{ 'height': '200px', 'width': '200px' }} />
+                                    <img src={`http://139.144.62.230:8080/${file}`} alt=".." className="m-2 border" style={{ 'height': '200px', 'width': '200px' }} />
                                 ))
                             }
                         </div>

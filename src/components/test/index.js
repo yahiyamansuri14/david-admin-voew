@@ -21,7 +21,7 @@ export default function FileUpload() {
         let token = await localStorage.getItem('access_token')
         axios({
             method: "POST",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/upload/file",
+            url: "http://139.144.62.230:8080/v1/user/upload/file",
             headers: {
                 Authorization : `Bearer ${token}`
             },

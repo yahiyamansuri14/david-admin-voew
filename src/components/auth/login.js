@@ -36,7 +36,7 @@ export default function Login() {
     const handleForgetPassword = () => {
         axios({
             method: "GET",
-            url: "http://d1n2t-adm1n.maxnetcommercial.com:8080/v1/user/mail/forget-password"
+            url: "http://139.144.62.230:8080/v1/user/mail/forget-password"
         }).then(data => {
             if(data.status == 200) {
                 Swal.fire('Please check your email for credentails')
